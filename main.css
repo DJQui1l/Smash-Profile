@@ -1,0 +1,47 @@
+@font-face {
+  font-family: Smash-Title;
+  src: url("https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfBBc4.woff2");
+
+  font-family: Smash-Body;
+  src: url("https://fonts.gstatic.com/s/robotocondensed/v18/ieVi2ZhZI2eCN5jzbjEETS9weq8-32meGCQYbw.woff2");
+}
+
+body {
+  margin: 0 auto;
+  font-family: Smash-Body;
+}
+
+.header-bar{
+  
+}
+
+.smashtitle{
+  border: solid 1px;
+  border-color: pink;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20%;
+
+}
+.smashtitle h1 {
+  display: absolute;
+  width: 100%;
+
+  margin: 0 auto;
+  padding: 4% ;
+  text-align: center;
+  position: absolute;
+  /* padding-left: 33%;
+  padding-top: 4%;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-template-rows: auto;
+
+  grid-column-start: 2;
+  grid-column-end: 5; */
+
+  font-family: Smash-Body;
+  border: solid 1px;
+
+
+}

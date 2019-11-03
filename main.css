@@ -12,48 +12,71 @@ body {
 }
 
 .header-bar{
-
-  display:grid;
-  grid-template: 100% / 10% 30% 70%;
-  margin-top: 20%;
-  width: 100%;
-  background-color: #111;
-  color: #CCC;
-  position: absolute;
-
-
-
+  text-transform: uppercase;
+display: grid;
+grid-template: 100% / 7% 30% 70%;
+grid-template-rows: 82px;
+/* grid-row-gap: 0px; */
+margin-top: 138px;
+width: 100%;
+background-color: #111;
+color: #CCC;
+position: absolute;
+}
+.header-bar img{
+  height: 88px;
+  width: 88px;
 }
 
 .smashtitle{
   border: solid 1px;
+
   border-color: pink;
+
   display: grid;
   grid-template-columns: 20% 20% 20% 20% 20%;
   grid-template-rows: 20% 20% 20% 20%;
   position: relative;
+
+
+  font-family: Smash-Title;
 }
 .smashtitle h1 {
+  text-transform: uppercase;
   display: block;
   width: 100%;
+  margin-top: 1px;
 
-  margin: 0 auto;
-  padding-top: 10% ;
+  padding-top: 40px;
+
   text-align: center;
   position: absolute;
 
-  top: 10%;
-  /* padding-left: 33%;
-  padding-top: 4%;
-  display: grid;
-  grid-template-columns: auto auto auto auto auto;
-  grid-template-rows: auto;
-
-  grid-column-start: 2;
-  grid-column-end: 5; */
-
   font-family: Smash-Body;
+  font-size: 50px;
+  letter-spacing: -3.9px;
+
   border: solid 1px;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
 
+}
 
+.smashtitle span {
+  font-size: 2em;
+  letter-spacing: -7px;
+}
+
+.name-big{
+  display:block;
+  position: relative;
+}
+
+.name-big h3{
+  position: relative;
+  font-size: 395px;
+}
+.name-big h4{
+  position: absolute;
 }

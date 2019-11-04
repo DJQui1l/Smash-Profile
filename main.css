@@ -15,8 +15,9 @@ body {
 
   display:grid;
   grid-template: 100% / 10% 30% 70%;
-  margin-top: 20%;
+  margin-top: 22%;
   width: 100%;
+  text-transform: uppercase;
   background-color: #111;
   color: #CCC;
   position: absolute;
@@ -54,6 +55,36 @@ body {
 
   font-family: Smash-Body;
   border: solid 1px;
+}
 
+.name-big{
+
+
+  margin-top: 40%;
+
+  position: relative;
+
+
+  border: solid 1px;
+  width: 100%;
+  line-height: 0;
+  text-transform: uppercase;
+}
+
+.name-big h3{
+
+  letter-spacing: -11px;
+  background-color:blue;
+  font-size:150px;
+  line-height: 0;
+  position: absolute;
+  top: 0;
+}
+.name-big h4{
+  margin-top: 6.2%;
+  background-color: red;
+  font-size:100px;
+  line-height: 0;
+  top:40%;
 
 }

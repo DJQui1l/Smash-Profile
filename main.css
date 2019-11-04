@@ -13,19 +13,27 @@ body {
 
 .header-bar{
   text-transform: uppercase;
-display: grid;
-grid-template: 100% / 7% 30% 70%;
-grid-template-rows: 82px;
-/* grid-row-gap: 0px; */
-margin-top: 138px;
-width: 100%;
-background-color: #111;
-color: #CCC;
-position: absolute;
+  display: grid;
+  grid-template: 100% / 6.7% 10% 70%;
+  grid-template-rows: 57px;
+  /* grid-row-gap: 0px; */
+  margin-top: 138px;
+  width: 100%;
+  background-color: #111;
+  color: #CCC;
+  position: absolute;
+
+  z-index: 5;
 }
 .header-bar img{
   height: 88px;
   width: 88px;
+  margin-top: -16px;
+}
+
+.header-bar h2 {
+  margin: auto;
+  width: 100%;
 }
 
 .smashtitle{
@@ -69,14 +77,28 @@ position: absolute;
 }
 
 .name-big{
-  display:block;
+  display:flex;
   position: relative;
 }
 
 .name-big h3{
-  position: relative;
-  font-size: 395px;
+position: absolute;
+margin: 107px 0px 0px -20px;
+font-size: 351px;
+letter-spacing: -27px;
+text-transform: uppercase;
+z-index: 3;
 }
+
 .name-big h4{
-  position: absolute;
-}
+  position: relative;
+  margin: 409px 0px 0px -6px;
+  font-size: 127px;
+  letter-spacing: -13px;
+  }
+
+  .name-big img{
+    margin: 134px 0px 0px 81px;
+
+    z-index: 4;
+  }

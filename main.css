@@ -108,7 +108,8 @@ z-index: 1 ;
   }
 
   .name-big img{
-        margin: 88px 0px 0px 336px;
+    margin-left: 7%;
+    margin-top: 6.3%;
     z-index: 2;
   }
 
@@ -134,12 +135,19 @@ z-index: 1 ;
   width: 91px;
   height: 91px;
   position: relative;
-  left: 1570px;
+  left: 274.4%;
+  /* opacity: 10%; */
+}
+
+.fixedLogos #bigCircle:hover, .fixedLogos #smallCircle:hover{
+  /* background-image: url('https://www.smashbros.com/assets_v2/img/common/globalsidenav-open__btn_pc_hover.png'); */
+  opacity: 95%;
+
 }
 .fixedLogos #smallCircle {
   width: 75px;
   height: 75px;
   position: relative;
-  left: 1486px;
-  bottom: 87px;
+  left: 253%;
+  bottom: 90px;
 }

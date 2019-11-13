@@ -21,7 +21,7 @@ body {
 .header-bar{
   text-transform: uppercase;
   display: grid;
-  grid-template: 100% / 6.7% 10% 70%;
+  grid-template: 100% / 6.6% 20% 20% 20% 20%;
   grid-template-rows: 57px;
   /* grid-row-gap: 0px; */
   margin-top: 96px;
@@ -135,7 +135,7 @@ z-index: 1 ;
   width: 91px;
   height: 91px;
   position: relative;
-  left: 274.4%;
+  left: 236.4%;
   /* opacity: 10%; */
 }
 
